@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "join_skyblock_world":{
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "skyblock:enable_features"
+    }
+}

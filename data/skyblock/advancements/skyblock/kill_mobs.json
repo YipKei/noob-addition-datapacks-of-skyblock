@@ -1,0 +1,36 @@
+{
+    "parent": "skyblock:skyblock/root",
+    "criteria": {
+      "kill_mobs": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": [
+                        "minecraft:rotten_flesh",
+                        "minecraft:bone",
+                        "minecraft:gunpowder"
+                    ]
+                }
+            ],
+            "player": [
+                {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                        "position": {
+                            "y": {
+                                "max": -54
+                            }
+                        }
+                    },
+                    "entity": "this"
+                }
+            ]
+          }
+        }
+    },
+    "rewards": {
+      "function": "noob:noob_reward_kill_mobs"
+    }
+  }
+  

@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ABA",
+        "ACA",
+        "ADA"
+    ],
+    "key": {
+        "A":{
+            "item": "minecraft:yellow_wool"
+        },
+        "B":{
+            "item": "minecraft:heart_of_the_sea"
+        },
+        "C":{
+            "item": "minecraft:sponge"
+        },
+        "D":{
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "minecraft:sponge",
+        "count": 4
+    }
+}

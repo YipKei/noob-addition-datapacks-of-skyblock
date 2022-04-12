@@ -1,0 +1,1 @@
+give @s minecraft:trident{Enchantments:[{id:"channeling",lvl:1}],RepairCost:99,Damage:240}

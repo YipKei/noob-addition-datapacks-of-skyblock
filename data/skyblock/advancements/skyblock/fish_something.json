@@ -1,0 +1,21 @@
+{
+    "parent": "skyblock:skyblock/root",
+    "criteria": {
+        "fish_something":{
+            "trigger": "minecraft:fishing_rod_hooked",
+            "conditions": {
+                "item":{
+                    "items": [
+                        "minecraft:cod",
+                        "minecraft:tropical_fish",
+                        "minecraft:pufferfish",
+                        "minecraft:salmon"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "noob:noob_reward_fishing"
+    }
+}

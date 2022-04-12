@@ -1,0 +1,42 @@
+{
+    "parent": "skyblock:skyblock/ancient_debris",
+    "criteria": {
+        "bedrock_transform":{
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:beacon"
+                    ]
+                },
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:respawn_anchor"
+                        ]
+                    }
+                },
+                "player": {
+                    "equipment": {
+                        "offhand": {
+                            "count": {
+                                "min":16
+                            },
+                            "items": [
+                                "minecraft:nether_star"
+                            ]
+                        }
+                    },
+                    "player":{
+                        "level": {
+                            "min": 99
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "noob:bedrock_transform"
+    }
+}

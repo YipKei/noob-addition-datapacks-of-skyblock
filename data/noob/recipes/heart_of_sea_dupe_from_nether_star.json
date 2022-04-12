@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ABA",
+        "BCB",
+        "ADA"
+    ],
+    "key": {
+        "A":{
+            "item": "minecraft:turtle_egg"
+        },
+        "B":{
+            "item": "minecraft:diamond"
+        },
+        "C":{
+            "item": "minecraft:conduit"
+        },
+        "D":{
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "item": "minecraft:heart_of_the_sea",
+        "count": 4
+    }
+}

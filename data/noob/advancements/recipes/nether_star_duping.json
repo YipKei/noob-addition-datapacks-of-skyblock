@@ -1,0 +1,23 @@
+{
+    "parent": "skyblock:skyblock/root",
+    "criteria": {
+        "get_nether_star":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:nether_star"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "noob:sponge_dupe_from_nether_star",
+            "noob:heart_of_sea_dupe_from_nether_star"
+        ]
+    }
+}
