@@ -1,4 +1,11 @@
+# 原空岛模组的汉化文档备份
+
+[说明文档（README.md）](https://github.com/YipKei/noob-addition-datapacks-of-skyblock/blob/1.19/docs/zh_cn/README.md)
+原作者如果接收了PR的话应该在那边也能看到，就不知道他什么时候点了。
+
 # 空岛模组菜鸟附加包
+
+**该包版本目前未更新至1.19**
 
 该包必须搭配[空岛模组及其附属数据包](https://github.com/jsorrell/skyblock/blob/1.18/README_cn.md)使用  
 增加了一些特性（可能实现写得不太好）以及一些稀有产物的增殖形式（是增殖而不是额外获取）  
